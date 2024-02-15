@@ -10,11 +10,6 @@ export default function Home() {
 
   return (
     <div>
-      <Head>
-        <title>세안전자</title>
-        <meta name="description" content="세안전자" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
       <div className="m-5">
         <Carousel images={images} />
       </div>
