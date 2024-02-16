@@ -44,7 +44,7 @@ export default function RootLayout({ children }) {
                     CEO 인사말
                   </a>
                   <a
-                    href="/about/history"
+                    href="/about/comhistory"
                     className="dropdown-link"
                   >
                     회사연혁
@@ -56,7 +56,7 @@ export default function RootLayout({ children }) {
                     경영방침
                   </a>
                   <a
-                    href="/about/certificates"
+                    href="/about/certy"
                     className="dropdown-link"
                   >
                     인증서
@@ -83,12 +83,12 @@ export default function RootLayout({ children }) {
                     TRANSFORMER
                   </a>
                   <a
-                    href="/Products/inductor"
+                    href="/products/inductor"
                     className="dropdown-link"                  >
                     INDUCTOR
                   </a>
                   <a
-                    href="/Products/linefilter"
+                    href="/products/linefilter"
                     className="dropdown-link"
                   >
                     LINE FILTER
@@ -118,7 +118,7 @@ export default function RootLayout({ children }) {
                 </Link>
                 <div className="absolute hidden group-hover:block bg-white text-base z-50 min-w-max dropdown-menu">
                   <a
-                    href="/support/sample"
+                    href="/support/samp"
                     className="dropdown-link"
                   >
                     샘플신청
