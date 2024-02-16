@@ -155,19 +155,19 @@ export default function RootLayout({ children }) {
                 </h2>
                 <nav class="list-none mb-10">
                   <li>
-                    <a class="text-gray-600 hover:text-gray-800">CEO 인사말</a>
+                    <a href="/about/ceo" class="text-gray-600 hover:text-gray-800">CEO 인사말</a>
                   </li>
                   <li>
-                    <a class="text-gray-600 hover:text-gray-800">회사연혁</a>
+                    <a href="/about/comhistory" class="text-gray-600 hover:text-gray-800">회사연혁</a>
                   </li>
                   <li>
-                    <a class="text-gray-600 hover:text-gray-800">경영방침</a>
+                    <a href="/about/policy" class="text-gray-600 hover:text-gray-800">경영방침</a>
                   </li>
                   <li>
-                    <a class="text-gray-600 hover:text-gray-800">인증서</a>
+                    <a href="/about/certy" class="text-gray-600 hover:text-gray-800">인증서</a>
                   </li>
                   <li>
-                    <a class="text-gray-600 hover:text-gray-800">오시는길</a>
+                    <a href="/about/location" class="text-gray-600 hover:text-gray-800">오시는길</a>
                   </li>
                 </nav>
               </div>
@@ -177,13 +177,13 @@ export default function RootLayout({ children }) {
                 </h2>
                 <nav class="list-none mb-10">
                   <li>
-                    <a class="text-gray-600 hover:text-gray-800">TRANSFORMER</a>
+                    <a href="/products/transformer" class="text-gray-600 hover:text-gray-800">TRANSFORMER</a>
                   </li>
                   <li>
-                    <a class="text-gray-600 hover:text-gray-800">INDUCTOR</a>
+                    <a href="/products/inductor" class="text-gray-600 hover:text-gray-800">INDUCTOR</a>
                   </li>
                   <li>
-                    <a class="text-gray-600 hover:text-gray-800">LINE FILTER</a>
+                    <a href="/products/linefilter" class="text-gray-600 hover:text-gray-800">LINE FILTER</a>
                   </li>
                 </nav>
               </div>
@@ -193,7 +193,7 @@ export default function RootLayout({ children }) {
                 </h2>
                 <nav class="list-none mb-10">
                   <li>
-                    <a class="text-gray-600 hover:text-gray-800">
+                    <a href="/technology/inductorinfo" class="text-gray-600 hover:text-gray-800">
                       INDUCTOR정보
                     </a>
                   </li>
@@ -205,7 +205,7 @@ export default function RootLayout({ children }) {
                 </h2>
                 <nav class="list-none mb-10">
                   <li>
-                    <a class="text-gray-600 hover:text-gray-800">샘플신청</a>
+                    <a href="/support/samp" class="text-gray-600 hover:text-gray-800">샘플신청</a>
                   </li>
                 </nav>
               </div>

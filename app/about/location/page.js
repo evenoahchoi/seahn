@@ -46,55 +46,40 @@ export default function Location() {
           </div>
           <div className="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
             <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">
-              Feedback
+              오시는길
             </h2>
             <p className="leading-relaxed mb-5 text-gray-600">
-              Post-ironic portland shabby chic echo park, banjo fashion axe
+              안양역에서 소외된 모두 왼발을 한보 앞으로
             </p>
-            <div className="relative mb-4">
-              <label htmlFor="name" className="leading-7 text-sm text-gray-600">
-                Name
-              </label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-              />
-            </div>
-            <div className="relative mb-4">
-              <label
-                htmlFor="email"
-                className="leading-7 text-sm text-gray-600"
-              >
-                Email
-              </label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-              />
-            </div>
-            <div className="relative mb-4">
-              <label
-                htmlFor="message"
-                className="leading-7 text-sm text-gray-600"
-              >
-                Message
-              </label>
-              <textarea
-                id="message"
-                name="message"
-                className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
-              ></textarea>
-            </div>
-            <button className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-              Button
-            </button>
-            <p className="text-xs text-gray-500 mt-3">
-              Chicharrones blog helvetica normcore iceland tousled brook viral
-              artisan.
+            <p className="leading-relaxed mb-5 text-gray-600">
+              그 담엔 오른발의 차례 눈앞을 향해
+            </p>
+            <p className="leading-relaxed mb-5 text-gray-600">
+              행진 전인권의 열정과 Attacking
+            </p>
+            <p className="leading-relaxed mb-5 text-gray-600">
+              누구도 막지 못해 넘치는 패기
+            </p>
+            <p className="leading-relaxed mb-5 text-gray-600">
+              날 믿지 못하는 부정적인 시선과 얘기는 곧 증발해 Evaporate
+            </p>
+            <p className="leading-relaxed mb-5 text-gray-600">
+              꿈의 눈물로 땀으로 적도보다 뜨거운 열기로
+            </p>
+            <p className="leading-relaxed mb-5 text-gray-600">
+              시간과 공간도 가두지 못하는 혈기로
+            </p>
+            <p className="leading-relaxed mb-5 text-gray-600">
+              Hands up put'em high don't let your gun cry
+            </p>
+            <p className="leading-relaxed mb-5 text-gray-600">
+              don't you put'em down low don't let your passion die
+            </p>
+            <p className="leading-relaxed mb-5 text-gray-600">
+              새빨간 색의 피는 누구나 흘리니까
+            </p>
+            <p className="leading-relaxed mb-5 text-gray-600">
+              죽을 때는 빌린 내 몸 흙이 될 테니까
             </p>
           </div>
         </div>
