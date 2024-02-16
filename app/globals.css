@@ -39,3 +39,11 @@
   .dropdown-link:hover {
     background-color: #f8f8f8;
   }
+
+  .cert-card{
+    @apply flex flex-col m-3 rounded-xl
+    transition duration-300 transform
+    hover:scale-105 
+    hover:shadow-lg
+    hover:text-gray-500
+}

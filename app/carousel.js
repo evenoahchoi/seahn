@@ -19,7 +19,7 @@ const Carousel = ({ images }) => {
 
   return (
     <div className="relative">
-      <div className="overflow-hidden w-1/2 mx-auto">
+      <div className="overflow-hidden w-2/3 mx-auto">
         {images.map((image, index) => (
           <div
             key={index}
