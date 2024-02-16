@@ -29,18 +29,102 @@ export default function RootLayout({ children }) {
               </a>
             </Link>
             <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-              <Link legacyBehavior href="/about">
-                <a className="mr-5 hover:text-gray-900">회사소개</a>
-              </Link>
-              <Link legacyBehavior href="/products">
-                <a className="mr-5 hover:text-gray-900">제품정보</a>
-              </Link>
-              <Link legacyBehavior href="/technology">
-                <a className="mr-5 hover:text-gray-900">기술정보</a>
-              </Link>
-              <Link legacyBehavior href="/support">
-                <a className="mr-5 hover:text-gray-900">고객지원</a>
-              </Link>
+              {/* 회사소개 드롭다운 메뉴 */}
+              <div className="relative group">
+                <Link legacyBehavior href="/about">
+                  <a className="mr-5 hover:text-gray-900 inline-flex items-center">
+                    회사소개
+                  </a>
+                </Link>
+                <div className="absolute hidden group-hover:block bg-white text-base z-50 min-w-max dropdown-menu">
+                  <a
+                    href="/about/ceo"
+                    className="dropdown-link"
+                  >
+                    CEO 인사말
+                  </a>
+                  <a
+                    href="/about/history"
+                    className="dropdown-link"
+                  >
+                    회사연혁
+                  </a>
+                  <a
+                    href="/about/policy"
+                    className="dropdown-link"
+                  >
+                    경영방침
+                  </a>
+                  <a
+                    href="/about/certificates"
+                    className="dropdown-link"
+                  >
+                    인증서
+                  </a>
+                  <a
+                    href="/about/location"
+                    className="dropdown-link"
+                  >
+                    오시는길
+                  </a>
+                </div>
+              </div>
+              <div className="relative group">
+                <Link legacyBehavior href="/products">
+                  <a className="mr-5 hover:text-gray-900 inline-flex items-center">
+                    제품정보
+                  </a>
+                </Link>
+                <div className="absolute hidden group-hover:block bg-white text-base z-50 min-w-max dropdown-menu">
+                  <a
+                    href="/products/transformer"
+                    className="dropdown-link"
+                  >
+                    TRANSFORMER
+                  </a>
+                  <a
+                    href="/Products/inductor"
+                    className="dropdown-link"                  >
+                    INDUCTOR
+                  </a>
+                  <a
+                    href="/Products/linefilter"
+                    className="dropdown-link"
+                  >
+                    LINE FILTER
+                  </a>
+                </div>
+              </div>
+              <div className="relative group">
+                <Link legacyBehavior href="/technology">
+                  <a className="mr-5 hover:text-gray-900 inline-flex items-center">
+                    기술정보
+                  </a>
+                </Link>
+                <div className="absolute hidden group-hover:block bg-white text-base z-50 min-w-max dropdown-menu">
+                  <a
+                    href="/technology/inductorinfo"
+                    className="dropdown-link"
+                  >
+                    INDUCTOR정보
+                  </a>
+                </div>
+              </div>
+              <div className="relative group">
+                <Link legacyBehavior href="/support">
+                  <a className="mr-5 hover:text-gray-900 inline-flex items-center">
+                    고객지원
+                  </a>
+                </Link>
+                <div className="absolute hidden group-hover:block bg-white text-base z-50 min-w-max dropdown-menu">
+                  <a
+                    href="/support/sample"
+                    className="dropdown-link"
+                  >
+                    샘플신청
+                  </a>
+                </div>
+              </div>
             </nav>
           </div>
         </header>
