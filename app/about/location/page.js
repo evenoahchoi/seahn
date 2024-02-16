@@ -5,21 +5,19 @@ export default function Location() {
     <div>
       <section className="text-gray-600 body-font relative">
         <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
-          <div className="lg:w-2/3 md:w-1/2 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
-            <a
-              href="https://map.naver.com/p/entry/place/1650919378?placePath=%2Fhome&c=15.00,0,0,0,dh"
-              target="_blank"
-              rel="noopener noreferrer"
+          <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+            <iframe
+              width="100%"
+              height="100%"
               className="absolute inset-0"
-            >
-              <Image
-                src="/map.png"
-                alt="지도1"
-                width={900}
-                height={900}
-                priority={true}
-              />
-            </a>
+              title="map"
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101472.69618249786!2d126.80449519726562!3d37.36566210000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b5df42d05a061%3A0xd2b18570b3531fa0!2z7IS47JWI7KCE7J6QKOyjvCk!5e0!3m2!1sko!2sus!4v1708121333977!5m2!1sko!2sus"
+              style={{ filter: "contrast(1) opacity(0.8)" }}
+            ></iframe>
+
             {/* 박스 전체를 flex container로 만들고, 주소를 포함하는 div의 너비를 조정합니다. */}
             <div className="bg-white relative flex flex-wrap py-1 rounded shadow-md w-3/4">
               {/* 주소 정보가 더 많은 공간을 차지하도록 flex-grow와 flex-basis를 사용합니다. */}
