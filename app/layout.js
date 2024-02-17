@@ -108,11 +108,11 @@ export default function RootLayout({ children }) {
           </div>
         </header>
         {children}
-        <footer class="bg-white text-gray-600 body-font border-t border-gray-300">
-          <div class="container px-5 py-5 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
-            <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+        <footer className="bg-white text-gray-600 body-font border-t border-gray-300">
+          <div className="container px-5 py-5 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+            <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
               <Link
-                class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900"
+                className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900"
                 href="/"
               >
                 <Image
@@ -122,22 +122,21 @@ export default function RootLayout({ children }) {
                   height={50}
                   priority={true}
                 />
-                <span class="ml-3 text-xl font-bold">세안전자</span>
+                <span className="ml-3 text-xl font-bold">세안전자</span>
               </Link>
-              <p class="mt-2 text-sm text-gray-500">
+              <p className="mt-2 text-sm text-gray-500">
                 세상을 더욱 살기 좋게 만듭니다
               </p>
             </div>
-            <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
-              <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-                <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
+            <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+              <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+                <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
                   회사소개
                 </h2>
-                <nav class="list-none mb-10">
+                <div className="list-none mb-10">
                   <li>
-                    <Link
-                      href="/about/ceo"
-                      class="text-gray-600 hover:text-gray-800"
+                    <Link href="/about/ceo"
+                      className="text-gray-600 hover:text-gray-800"
                     >
                       CEO 인사말
                     </Link>
@@ -145,7 +144,7 @@ export default function RootLayout({ children }) {
                   <li>
                     <Link
                       href="/about/comhistory"
-                      class="text-gray-600 hover:text-gray-800"
+                      className="text-gray-600 hover:text-gray-800"
                     >
                       회사연혁
                     </Link>
@@ -153,7 +152,7 @@ export default function RootLayout({ children }) {
                   <li>
                     <Link
                       href="/about/policy"
-                      class="text-gray-600 hover:text-gray-800"
+                      className="text-gray-600 hover:text-gray-800"
                     >
                       경영방침
                     </Link>
@@ -161,7 +160,7 @@ export default function RootLayout({ children }) {
                   <li>
                     <Link
                       href="/about/certy"
-                      class="text-gray-600 hover:text-gray-800"
+                      className="text-gray-600 hover:text-gray-800"
                     >
                       인증서
                     </Link>
@@ -169,22 +168,22 @@ export default function RootLayout({ children }) {
                   <li>
                     <Link
                       href="/about/location"
-                      class="text-gray-600 hover:text-gray-800"
+                      className="text-gray-600 hover:text-gray-800"
                     >
                       오시는길
                     </Link>
                   </li>
-                </nav>
+                </div>
               </div>
-              <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-                <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
+              <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+                <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
                   제품정보
                 </h2>
-                <nav class="list-none mb-10">
+                <nav className="list-none mb-10">
                   <li>
                     <Link
                       href="/products/transformer"
-                      class="text-gray-600 hover:text-gray-800"
+                      className="text-gray-600 hover:text-gray-800"
                     >
                       TRANSFORMER
                     </Link>
@@ -192,7 +191,7 @@ export default function RootLayout({ children }) {
                   <li>
                     <Link
                       href="/products/inductor"
-                      class="text-gray-600 hover:text-gray-800"
+                      className="text-gray-600 hover:text-gray-800"
                     >
                       INDUCTOR
                     </Link>
@@ -200,42 +199,42 @@ export default function RootLayout({ children }) {
                   <li>
                     <Link
                       href="/products/linefilter"
-                      class="text-gray-600 hover:text-gray-800"
+                      className="text-gray-600 hover:text-gray-800"
                     >
                       LINE FILTER
                     </Link>
                   </li>
                 </nav>
               </div>
-              <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-                <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
+              <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+                <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
                   기술정보
                 </h2>
-                <nav class="list-none mb-10">
+                <nav className="list-none mb-10">
                   <li>
                     <Link
                       href="/technology/inductorinfo"
-                      class="text-gray-600 hover:text-gray-800"
+                      className="text-gray-600 hover:text-gray-800"
                     >
                       INDUCTOR정보
                     </Link>
                   </li>
                 </nav>
               </div>
-              <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-                <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
+              <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+                <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
                   고객지원
                 </h2>
-                <nav class="list-none mb-10">
+                <div className="list-none mb-10">
                   <li>
-                    <a
+                    <Link
                       href="/support/samp"
-                      class="text-gray-600 hover:text-gray-800"
+                      className="text-gray-600 hover:text-gray-800"
                     >
                       샘플신청
-                    </a>
+                    </Link>
                   </li>
-                </nav>
+                </div>
               </div>
             </div>
           </div>

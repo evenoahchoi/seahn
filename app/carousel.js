@@ -25,7 +25,7 @@ const Carousel = ({ images }) => {
             key={index}
             className={`transition-transform ease-in-out duration-700 ${index === currentIndex ? 'opacity-100' : 'opacity-0 absolute'} w-full`}
           >
-            <img src={image.src} alt={image.alt} className="block w-full" />
+            <img src={image.src} alt={image.alt} className="block" />
           </div>
         ))}
       </div>
