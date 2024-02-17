@@ -16,7 +16,7 @@ export default function Header() {
                 height={100}
                 priority={true}
               />
-              <span className="ml-3 text-xl font-bold">세안전자</span>
+              <span className="ml-3 text-3xl font-bold">세안전자</span>
             </Link>
             <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
               {/* 회사소개 드롭다운 메뉴 */}
