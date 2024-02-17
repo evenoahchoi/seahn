@@ -94,7 +94,7 @@ export default function RootLayout({ children }) {
               <div className="relative group">
                 <Link
                   className="mr-5 hover:text-gray-900 inline-flex items-center"
-                  href="/support"
+                  href="/support/samp"
                 >
                   고객지원
                 </Link>
