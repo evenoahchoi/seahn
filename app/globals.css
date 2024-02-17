@@ -47,3 +47,57 @@
     hover:shadow-lg
     hover:text-gray-500
 }
+
+.email-form-container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border-radius: 8px;
+}
+
+.email-form-container h1 {
+  margin-bottom: 0.5em;
+}
+
+.email-form-container p {
+  color: #666;
+  margin-bottom: 2em;
+}
+
+.email-form .form-group {
+  margin-bottom: 1em;
+}
+
+.email-form .form-group input,
+.email-form .form-group textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 0.5em 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.email-form .form-group textarea {
+  height: 150px;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  background: #038cfc;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.submit-button:hover {
+  background: #0056b3;
+}
+
+.contact-info p {
+  color: #666;
+}
