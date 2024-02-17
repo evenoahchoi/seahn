@@ -1,4 +1,3 @@
-import { Inter } from "next/font/google";
 import "./globals.css";
 import Image from "next/image";
 import Link from "next/link";
@@ -6,6 +5,9 @@ import Link from "next/link";
 export const metadata = {
   title: "세안전자",
   description: "세안전자 주식회사",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({ children }) {
