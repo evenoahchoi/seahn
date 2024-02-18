@@ -34,7 +34,7 @@ const EmailForm = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm("your_service_id", "your_template_id", e.target, "your_user_id")
+      .sendForm("service_qwjn64p", "template_2gfglth", e.target, "0RNcJ11USAvUfX8zq")
       .then(
         (result) => {
           alert("메세지를 성공적으로 전송하였습니다.");
