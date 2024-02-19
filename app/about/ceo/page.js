@@ -10,10 +10,6 @@ export default function Ceo() {
               세안전자 대표 이호준입니다.
             </h1>
             <p className="mb-8 leading-relaxed">
-              짜파게티 4개 가능합니다. 실비김치에 먹으면 충분히 가능합니다.
-              여러분도 실비김치에 짜파게티 드셔보세요.
-            </p>
-            <p className="mb-8 leading-relaxed">
               존경하는 고객 여러분, 저희 세안전자는 트랜스포머, 인덕터,
               라인필터를 전문으로 하는 전자기기 유통 회사로서, 지난 몇 년간
               눈부신 성장을 이루어왔습니다.{" "}
