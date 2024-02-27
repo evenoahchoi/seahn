@@ -25,10 +25,10 @@ jobs:
         port: 2222  # 외부에서 접속할 포트
         script: |
           export PATH=$PATH:/usr/local/bin
-          cd /volume1/docker/node/sehan
+          cd /volume1/docker/node/seahn
           git pull origin master
           npm install
           npm run build
 
-          docker restart sehan
+          docker restart seahn
       
