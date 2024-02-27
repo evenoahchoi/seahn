@@ -25,10 +25,10 @@ jobs:
         port: 2222  # 외부에서 접속할 포트
         script: |
           export PATH=$PATH:/usr/local/bin
-          cd /volume1/docker/node/nextjs-haru
+          cd /volume1/docker/node/sehan
           git pull origin master
           npm install
           npm run build
 
-          docker restart haru
+          docker restart sehan
       
